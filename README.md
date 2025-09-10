@@ -95,7 +95,7 @@ pip install -r requirements.txt
 cp .env.example .env
 Edit .env with your own secrets/config.
 ```
-### ```2. Frontend Setup
+```2. Frontend Setup
 bash
 Copy code
 cd frontend-html
@@ -110,7 +110,7 @@ npx http-server -p 3000
 # Right-click index.html -> "Open with Live Server"
 ```
 ```
-###3. Access the App
+3. Access the App
 Frontend: http://localhost:3000
 
 Backend API: http://localhost:8000
