@@ -95,8 +95,8 @@ pip install -r requirements.txt
 cp .env.example .env
 Edit .env with your own secrets/config.
 ```
-```2. Frontend Setup
-bash
+### 2. Frontend Setup
+```bash
 Copy code
 cd frontend-html
 
@@ -109,8 +109,8 @@ npx http-server -p 3000
 # Option 3: VS Code Live Server extension
 # Right-click index.html -> "Open with Live Server"
 ```
-```
-3. Access the App
+### 3. Access the App
+```bash
 Frontend: http://localhost:3000
 
 Backend API: http://localhost:8000
