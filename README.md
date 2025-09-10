@@ -94,8 +94,8 @@ venv\Scripts\activate         # Windows
 pip install -r requirements.txt
 cp .env.example .env
 Edit .env with your own secrets/config.
-
-2. Frontend Setup
+```
+### ```2. Frontend Setup
 bash
 Copy code
 cd frontend-html
@@ -108,7 +108,9 @@ npx http-server -p 3000
 
 # Option 3: VS Code Live Server extension
 # Right-click index.html -> "Open with Live Server"
-3. Access the App
+```
+```
+###3. Access the App
 Frontend: http://localhost:3000
 
 Backend API: http://localhost:8000
@@ -175,3 +177,4 @@ N8N
 Undetected ChromeDriver
 
 ⚠️ Disclaimer: This app is for educational and web automation testing purposes only. Use responsibly and comply with LeetCode’s Terms of Service.
+```
