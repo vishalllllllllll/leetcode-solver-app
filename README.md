@@ -66,7 +66,6 @@ LEETCODE-SOLVER-APP/
 │
 ├── demo_video/              # Demo video files (<100MB)
 │   ├── leetcode_solver_demo_video.mp4
-│   └── leetcode-solver-demo-video.mkv
 │
 ├── frontend-html/           # Static frontend
 │   ├── about.html
