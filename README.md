@@ -41,48 +41,46 @@ A production-ready automation tool that solves and submits LeetCode daily challe
 - **LeetCode account** (user-provided)  
 
 ---
+# 📂 Project Structure
 
-## 🏗️ Project Structure
-
+```bash
 LEETCODE-SOLVER-APP/
 ├── backend/
-│ ├── auth.py # AES/JWT authentication
-│ ├── cache.py # Redis + SQLite cache manager
-│ ├── code_cache.py # Solution cache handler
-│ ├── main.py # FastAPI entry point
-│ ├── scheduler.py # Daily refresh scheduler
-│ ├── user_manager.py # Multi-user session manager
-│ ├── websocket.py # WebSocket updates
-│ ├── utils/
-│ │ ├── code_validator.py
-│ │ ├── leetcode_submit.py
-│ │ └── n8n_enhanced.py
-│ ├── requirements.txt # Backend dependencies
-│ └── .env.example # Environment template
+│   ├── auth.py              # AES/JWT authentication
+│   ├── cache.py             # Redis + SQLite cache manager
+│   ├── code_cache.py        # Solution cache handler
+│   ├── main.py              # FastAPI entry point
+│   ├── scheduler.py         # Daily refresh scheduler
+│   ├── user_manager.py      # Multi-user session manager
+│   ├── websocket.py         # WebSocket updates
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── code_validator.py
+│   │   ├── leetcode_submit.py
+│   │   └── n8n_enhanced.py
+│   ├── requirements.txt     # Backend dependencies
+│   └── .env.example         # Environment template
 │
 ├── configs/
-│ └── settings.yaml # Application config
+│   └── settings.yaml        # Application config
 │
-├── demo_video/ # Demo video files
-│ ├── leetcode_solver_demo_video.mp4
+├── demo_video/              # Demo video files (<100MB)
+│   ├── leetcode_solver_demo_video.mp4
+│   └── leetcode-solver-demo-video.mkv
 │
-├── frontend-html/ # Static frontend
-│ ├── about.html
-│ ├── index.html
-│ ├── script.js
-│ └── styles.css
+├── frontend-html/           # Static frontend
+│   ├── about.html
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
 │
 ├── n8n workflow/
-│ └── leetcode_solver_app.json # Exported workflow
+│   └── leetcode_solver_app.json   # Exported workflow
 │
 ├── README.md
 ├── .gitignore
 └── requirements.txt
-
-yaml
-Copy code
-
----
+```
 
 ## 🚀 Quick Start
 
